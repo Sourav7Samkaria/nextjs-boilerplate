@@ -8,7 +8,6 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Layout>
-        {" "}
         <Component key={router.asPath} {...pageProps} />
       </Layout>
     </>

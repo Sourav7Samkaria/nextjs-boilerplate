@@ -4,15 +4,16 @@ const UserList = ({ users }) => {
   return (
     <div className={styles.userList}>
       <div className={styles.alignmemt}>
-        {users.map((user, id) => {
-          return (
-            <ol key={user.id} className="user-name">
-              <p className={styles.user_name_list}>{user.name}</p>
-            </ol>
-          );
-        })}
+      
+          {users.map((user, id) => {
+            return (
+              <ol key={user.id} className="user-name">
+                <p className={styles.user_name_list}>{user.name}</p>
+              </ol>
+            );
+          })}
       </div>
-    </div>  
+    </div>
   );
 };
 

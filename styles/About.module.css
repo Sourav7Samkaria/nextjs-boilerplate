@@ -1,8 +1,6 @@
 .about_section {
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 65px;
 }
 .data_title {
   font-size: 16px;
